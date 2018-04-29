@@ -1,0 +1,245 @@
+/*
+Theme Name: GL Organisation
+Theme URI: http://clafleur.lyceestvincent.fr/
+Author: the best feral druid
+Author URI: http://clafleur.lyceestvincent.fr/
+Description: Special GL Organisation Theme !
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* CODE CELIA */
+body{
+    /* background-color: rgb(24, 24, 24); */
+    background-color: black;
+    color: white;
+}
+header{
+    padding: 0 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+.home header{
+    z-index: 999999;
+    position: absolute;
+}
+.navbar .logo{
+    position: relative;
+    margin-right: 50px;
+    float: left;
+}
+.navbar{
+    margin-bottom: 20px;
+    height: 20%!important;
+}
+.navbar-header a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
+.glo-title{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    line-height: 1.1em;
+    text-shadow: 1px 1px 5px #343b48;
+}
+.highlight{
+    color: #a11a25;
+}
+.navbar-brand img{
+    margin: 0 20px;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    padding: 0;
+    padding: 0 10px;
+    color: white;
+    border-right: 1px solid white;
+    line-height: 1em;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 5px #343b48;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover, .navbar ul li a:active, .navbar ul li a:focus{
+    background: none;
+    color: #a11a25;
+}
+.navbar ul li:last-child a{
+    border-right: none;
+}
+.menu{
+    margin-right: 20px;
+    padding-bottom: 47px;   
+    width: auto;
+}
+
+.containerHome{
+    width: 100%;
+    top: 0;
+}
+.containerHome h1{
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    text-transform: uppercase;
+
+}
+.carousel-indicators li {
+    background-color: #343b48;
+    border: 1px solid #343b48;
+}
+.carousel-indicators .active {
+    background-color: #a11a25;
+    border: 1px solid #a11a25;
+}
+.glyphicon {
+    top: 50%;
+}
+.carousel .item img{
+    max-height:2000px;
+}
+
+footer{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer a{
+    color : white;
+}
+footer a:hover, footer a:active, footer a:focus{
+    color : white;
+}
+.footerText{
+    padding: 5px;
+}
+.sep{
+    padding: 5px;
+}
+
+.error404{
+    background-image: url('images/bg-404.jpg');
+    background-repeat: no-repeat;
+}
+.errorPage404{
+    margin: auto;
+}
+.buttonGLO{
+    font-family: "Raleway", sans-serif;
+    margin-top: 60px;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    color: white;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 15x;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.buttonGLO:hover{
+    color: white;
+    text-decoration: none;
+    border-color: #9d1a24;
+    background-color: #9d1a24;
+}
+.page-template-page-about, .page-template-page-contact{
+background-image: url('images/bg-about.jpg');
+background-repeat: no-repeat;
+}
+.page-template-page-terms{
+    background-image: url('images/bg-terms.jpg');
+    background-repeat: no-repeat;
+}
+
+/* CODE ANNE FRANCE */
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    margin: auto;
+}
+
+button,
+select,
+textarea,
+input {
+    width: 100%;
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    /*color: white;*/
+}
+
+.page-template-contact .entry-content form p {
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+}
+
+.intro-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* h1 {
+    padding: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+} */
+
+.entry-content {
+    text-align: left;
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+label {
+    display: block;
+}
+
