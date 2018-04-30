@@ -13,38 +13,44 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-
 /* CODE CELIA */
-body{
+
+body {
     /* background-color: rgb(24, 24, 24); */
     background-color: black;
     color: white;
 }
-header{
+
+header {
     padding: 0 5%;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
 }
-.home header{
+
+.home header {
     z-index: 999999;
     position: absolute;
 }
-.navbar .logo{
+
+.navbar .logo {
     position: relative;
     margin-right: 50px;
     float: left;
 }
-.navbar{
+
+.navbar {
     margin-bottom: 20px;
     height: 20%!important;
 }
-.navbar-header a{
+
+.navbar-header a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 40px;
 }
-.glo-title{
+
+.glo-title {
     color: white;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -52,13 +58,16 @@ header{
     line-height: 1.1em;
     text-shadow: 1px 1px 5px #343b48;
 }
-.highlight{
+
+.highlight {
     color: #a11a25;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     margin: 0 20px;
 }
-.navbar ul{
+
+.navbar ul {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -66,7 +75,7 @@ header{
     padding-bottom: 50px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     color: white;
     font-family: 'Raleway', sans-serif;
     transition: all 0.5s ease;
@@ -81,45 +90,55 @@ header{
     font-weight: 500;
     text-transform: uppercase;
 }
-.navbar ul li a:hover, .navbar ul li a:active, .navbar ul li a:focus{
+
+.navbar ul li a:hover,
+.navbar ul li a:active,
+.navbar ul li a:focus {
     background: none;
     color: #a11a25;
 }
-.navbar ul li:last-child a{
+
+.navbar ul li:last-child a {
     border-right: none;
 }
-.menu{
+
+.menu {
     margin-right: 20px;
-    padding-bottom: 47px;   
+    padding-bottom: 47px;
     width: auto;
 }
 
-.containerHome{
+.containerHome {
     width: 100%;
     top: 0;
 }
-.containerHome h1{
+
+.containerHome h1 {
     text-align: center;
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
 
 }
+
 .carousel-indicators li {
     background-color: #343b48;
     border: 1px solid #343b48;
 }
+
 .carousel-indicators .active {
     background-color: #a11a25;
     border: 1px solid #a11a25;
 }
+
 .glyphicon {
     top: 50%;
 }
-.carousel .item img{
-    max-height:2000px;
+
+.carousel .item img {
+    max-height: 2000px;
 }
 
-footer{
+footer {
     margin: 10px auto;
     display: flex;
     flex-direction: row;
@@ -128,27 +147,35 @@ footer{
     text-align: center;
     text-transform: uppercase;
 }
-footer a{
-    color : white;
+
+footer a {
+    color: white;
 }
-footer a:hover, footer a:active, footer a:focus{
-    color : white;
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+    color: white;
 }
-.footerText{
-    padding: 5px;
-}
-.sep{
+
+.footerText {
     padding: 5px;
 }
 
-.error404{
+.sep {
+    padding: 5px;
+}
+
+.error404 {
     background-image: url('images/bg-404.jpg');
     background-repeat: no-repeat;
 }
-.errorPage404{
+
+.errorPage404 {
     margin: auto;
 }
-.buttonGLO{
+
+.buttonGLO {
     font-family: "Raleway", sans-serif;
     margin-top: 60px;
     display: inline-block;
@@ -164,17 +191,21 @@ footer a:hover, footer a:active, footer a:focus{
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.buttonGLO:hover{
+
+.buttonGLO:hover {
     color: white;
     text-decoration: none;
     border-color: #9d1a24;
     background-color: #9d1a24;
 }
-.page-template-page-about, .page-template-page-contact{
-background-image: url('images/bg-about.jpg');
-background-repeat: no-repeat;
+
+.page-template-page-about,
+.page-template-page-contact {
+    background-image: url('images/bg-about.jpg');
+    background-repeat: no-repeat;
 }
-.page-template-page-terms{
+
+.page-template-page-terms {
     background-image: url('images/bg-terms.jpg');
     background-repeat: no-repeat;
 }
@@ -243,3 +274,65 @@ label {
     display: block;
 }
 
+/* Page 404 */
+
+.errorPage404 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.errorPage404 h1 {
+    margin-top: calc(50vh);
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    text-transform: none;
+
+}
+
+.errorPage404 a {
+    outline: 0 !important;
+    text-decoration: none;
+}
+
+.errorPage404 p {
+    text-align: center;
+}
+
+.button {
+    margin-top: 60px;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    color: white;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.button:hover {
+    border-color: #9d1a24;
+    background-color: #9d1a24;
+}
+
+.errorPage404 a:visited {
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .errorPage404 {
+        padding: 0 20px;
+    }
+}
