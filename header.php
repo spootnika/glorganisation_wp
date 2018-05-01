@@ -25,9 +25,9 @@
                     <!-- Logo -->
                     <a href="index.php" class="navbar-brand">
                         <div>
-                            <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_GL.png" alt="Logo GL Organisation" width="" height="" />
+                            <img class="logo imgSize" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_GL.png" alt="Logo GL Organisation" width="" height="" />
                         </div>
-                        <div>
+                        <div class="collapse navbar-collapse">
                             <span class="glo-title">
 								International Agency
 								<br><span class="highlight">for Live Shows</span>
@@ -35,7 +35,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div id="myNavbar">
                     <?php
 					wp_nav_menu(array(
 						"theme_location"=>"main",
