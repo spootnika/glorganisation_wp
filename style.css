@@ -114,10 +114,11 @@ header {
     top: 0;
 }
 
-.containerHome h1 {
+.containerHome h1, .page-template-page-terms h1 {
     text-align: center;
     font-family: "Playfair Display", sans-serif;
     text-transform: uppercase;
+    font-size: 40px;
 
 }
 
@@ -276,6 +277,32 @@ footer a:focus {
     font-size: 19px;
     margin-top: 20px;
     line-height: 1;
+}
+.wpcf7-submit{
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0 !important;
+    color: white;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+}
+.wpcf7-submit:hover{
+    border-color: #9d1a24;
+    background-color: #9d1a24;
+}
+.formRequired {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 15px!important;
+    text-align: left;
+    margin: 0 17px;
 }
 
 /* CODE ANNE FRANCE */
