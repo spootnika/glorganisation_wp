@@ -349,6 +349,7 @@ h1 {
     margin: auto;
 }
 
+
 button,
 select,
 textarea,
@@ -431,6 +432,7 @@ label {
     text-align: center;
 }
 
+.elementor-button-text,
 .button {
     margin-top: 60px;
     display: inline-block;
@@ -447,6 +449,7 @@ label {
 
 }
 
+.elementor-button-text:hover,
 .button:hover {
     border-color: #9d1a24;
     background-color: #9d1a24;
@@ -532,6 +535,7 @@ label {
     background-color: black;
     padding-top: 40px;
     position: relative;
+    text-align: center;
 }
 
 h1,
@@ -539,5 +543,59 @@ h2 {
 
     text-transform: uppercase;
     font-family: "Playfair Display", serif;
+}
 
+ul {
+    list-style: none;
+}
+
+h3 {
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
+
+    text-align: center;
+}
+
+hr {}
+
+h2:after {
+    content: "";
+    display: block;
+    clear: both;
+
+    width: 100px!important;
+    height: 0;
+
+}
+
+.paragrapheIntroSpectacle {
+
+    text-align: left;
+}
+
+@media screen and (min-width: 767px) {
+    .paragrapheIntroSpectacle {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #containerSpectacle img {
+        padding-bottom: 30px;
+    }
+}
+
+#containerSpectacle .row .col-sm-5.col-md-4.col-lg-3 {
+    padding-left: 0px !important;
+}
+
+.elementor-button-text {
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 278%;
 }
