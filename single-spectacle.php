@@ -12,6 +12,7 @@ Template Name: Page Spectacle
             the_title();
 ?>
 </h1>
+<img src="<?php echo get_field('affiche'); ?>" alt="">
 <?php
             the_content();
             the_permalink();
