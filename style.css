@@ -599,3 +599,7 @@ h2:after {
     margin-left: -150px;
     bottom: 278%;
 }
+.single-spectacle hr{
+    width: 110px;
+    margin: auto!important;
+}
