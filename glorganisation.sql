@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  jeu. 03 mai 2018 à 10:11
+-- Généré le :  jeu. 03 mai 2018 à 10:16
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -316,7 +316,7 @@ CREATE TABLE IF NOT EXISTS `glo_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=MyISAM AUTO_INCREMENT=260 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=269 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
 -- Déchargement des données de la table `glo_postmeta`
@@ -530,7 +530,16 @@ INSERT INTO `glo_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (256, 70, '_edit_last', '1'),
 (257, 70, '_edit_lock', '1525341247:1'),
 (258, 71, '_edit_last', '1'),
-(259, 71, '_edit_lock', '1525341419:1');
+(259, 71, '_edit_lock', '1525341419:1'),
+(260, 75, '_edit_last', '1'),
+(261, 75, 'field_5aeae114bdf05', 'a:11:{s:3:\"key\";s:19:\"field_5aeae114bdf05\";s:5:\"label\";s:7:\"affiche\";s:4:\"name\";s:14:\"afficheaffiche\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:18:\"image de l\'affiche\";s:8:\"required\";s:1:\"1\";s:11:\"save_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+(262, 75, 'field_5aeae13fbdf06', 'a:14:{s:3:\"key\";s:19:\"field_5aeae13fbdf06\";s:5:\"label\";s:15:\"titre_spectacle\";s:4:\"name\";s:15:\"titre_spectacle\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:18:\"titre du spectacle\";s:8:\"required\";s:1:\"1\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+(263, 75, 'field_5aeae15dbdf07', 'a:11:{s:3:\"key\";s:19:\"field_5aeae15dbdf07\";s:5:\"label\";s:16:\"image_principale\";s:4:\"name\";s:16:\"image_principale\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"1\";s:11:\"save_format\";s:3:\"url\";s:12:\"preview_size\";s:4:\"full\";s:7:\"library\";s:3:\"all\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+(264, 75, 'rule', 'a:5:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:20:\"single-spectacle.php\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+(265, 75, 'position', 'normal'),
+(266, 75, 'layout', 'no_box'),
+(267, 75, 'hide_on_screen', ''),
+(268, 75, '_edit_lock', '1525342580:1');
 
 -- --------------------------------------------------------
 
@@ -568,7 +577,7 @@ CREATE TABLE IF NOT EXISTS `glo_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=MyISAM AUTO_INCREMENT=74 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=76 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
 -- Déchargement des données de la table `glo_posts`
@@ -630,7 +639,9 @@ INSERT INTO `glo_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `pos
 (70, 1, '2018-05-03 11:56:28', '2018-05-03 09:56:28', '', 'notre dame de paris', '', 'publish', 'closed', 'closed', '', 'notre-dame-de-paris', '', '', '2018-05-03 11:56:28', '2018-05-03 09:56:28', '', 0, 'http://localhost/wordpress/?post_type=spectacle&#038;p=70', 0, 'spectacle', '', 0),
 (71, 1, '2018-05-03 11:56:37', '2018-05-03 09:56:37', '', 'roméo et juliette', '', 'publish', 'closed', 'closed', '', 'romeo-et-juliette', '', '', '2018-05-03 11:56:37', '2018-05-03 09:56:37', '', 0, 'http://localhost/wordpress/?post_type=spectacle&#038;p=71', 0, 'spectacle', '', 0),
 (72, 1, '2018-05-03 12:00:25', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-05-03 12:00:25', '0000-00-00 00:00:00', '', 0, 'http://localhost/wordpress/?post_type=acf&p=72', 0, 'acf', '', 0),
-(73, 1, '2018-05-03 12:01:12', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-05-03 12:01:12', '0000-00-00 00:00:00', '', 0, 'http://localhost/wordpress/?page_id=73', 0, 'page', '', 0);
+(73, 1, '2018-05-03 12:01:12', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-05-03 12:01:12', '0000-00-00 00:00:00', '', 0, 'http://localhost/wordpress/?page_id=73', 0, 'page', '', 0),
+(74, 1, '2018-05-03 12:12:55', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2018-05-03 12:12:55', '0000-00-00 00:00:00', '', 0, 'http://localhost/wordpress/?post_type=acf&p=74', 0, 'acf', '', 0),
+(75, 1, '2018-05-03 12:16:19', '2018-05-03 10:16:19', '', 'spectacle', '', 'publish', 'closed', 'closed', '', 'acf_spectacle', '', '', '2018-05-03 12:16:19', '2018-05-03 10:16:19', '', 0, 'http://localhost/wordpress/?post_type=acf&#038;p=75', 0, 'acf', '', 0);
 
 -- --------------------------------------------------------
 

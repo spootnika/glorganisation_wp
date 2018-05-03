@@ -1,4 +1,7 @@
 <?php
+/* 
+Template Name: Page Spectacle
+*/
     get_header();
     if(have_posts()):
         while(have_posts()): 
