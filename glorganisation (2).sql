@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 05 mai 2018 à 20:10
+-- Généré le :  sam. 05 mai 2018 à 20:11
 -- Version du serveur :  5.7.19
 -- Version de PHP :  5.6.31
 
@@ -547,7 +547,7 @@ INSERT INTO `glo_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (245, 66, '_elementor_version', '0.4'),
 (269, 4, '_elementor_css', 'a:4:{s:4:\"time\";i:1525352381;s:5:\"fonts\";a:0:{}s:6:\"status\";s:5:\"empty\";s:3:\"css\";s:0:\"\";}'),
 (256, 70, '_edit_last', '1'),
-(257, 70, '_edit_lock', '1525550997:1'),
+(257, 70, '_edit_lock', '1525551013:1'),
 (258, 71, '_edit_last', '1'),
 (259, 71, '_edit_lock', '1525375983:1'),
 (260, 75, '_edit_last', '1'),
