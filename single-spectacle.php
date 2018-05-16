@@ -9,8 +9,8 @@ Template Name: Page Spectacle
 ?>
     <div id="imageSpectacle" style="background-image:url(' <?php echo get_field( 'image_principale'); ?>');">
         <div id="navigationSpectacle" class="navigation">
-            <div class="nav-box previous"><a href="Spectacle/le-roi-soleil/" rel="prev"><span>previous show</span></a></div>
-            <div class="nav-box next"><a href="Spectacle/le-roi-soleil/" rel="next"><span>next show</span></a></div>
+            <div class="nav-box previous"><?php next_post_link( '%link', 'Previous' ); ?></div>
+            <div class="nav-box next"><?php previous_post_link( '%link', 'Next' ); ?></div>
         </div>
     </div>
     <div id="containerSpectacle" class="container">
