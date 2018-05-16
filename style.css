@@ -142,6 +142,7 @@ header {
 
 footer {
     margin: auto;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -331,6 +332,14 @@ label{
 .wpcf7-submit:hover {
     border-color: #9d1a24;
     background-color: #9d1a24;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    width: 40%;
+    margin: 0 auto 50px auto;
+}
+.entry-content .row{
+    margin: 0!important;
 }
 
 .formRequired {
