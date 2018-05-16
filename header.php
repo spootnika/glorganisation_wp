@@ -12,6 +12,8 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.png">
 
+    <title>GL Organisation</title>
+
 
     <?php wp_head(); ?>
 </head>
@@ -24,7 +26,7 @@
             <div class="container-fluid site-nav">
                 <div class="navbar-header">
                     <!-- Logo -->
-                    <a href="index.php" class="navbar-brand">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand">
                         <div>
                             <img class="logo imgSize" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo_GL.png" alt="Logo GL Organisation" width="" height="" />
                         </div>
