@@ -618,3 +618,17 @@ h2:after {
     width: 110px;
     margin: auto!important;
 }
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+ .overlay-image img {
+    padding: 51px 0px;
+} 
+    .hover{
+        padding: 51px 0px;
+    }
+}
+
+.elementor-row{
+    margin: 52px;
+}
+
