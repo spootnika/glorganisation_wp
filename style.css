@@ -632,3 +632,7 @@ h2:after {
     margin: 52px;
 }
 
+.overlay-image .hover{
+    width:100%;
+    left:6px;
+}
